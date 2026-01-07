@@ -1,0 +1,9 @@
+sudo adduser sonarqube
+
+cd /opt
+sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-10.5.1.zip
+sudo apt install unzip
+sudo unzip sonarqube-10.5.1.zip
+sudo mv sonarqube-10.5.1 sonarqube
+sudo chown -R sonarqube:sonarqube sonarqube
+
