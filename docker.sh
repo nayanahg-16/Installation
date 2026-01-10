@@ -15,4 +15,4 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 sudo systemctl enable docker
 sudo systemctl start docker
 sudo usermod -aG docker jenkins
-sudo usermod -aG docker ubutu
+sudo usermod -aG docker ubuntu
